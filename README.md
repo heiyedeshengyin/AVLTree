@@ -1,7 +1,7 @@
 # AVLTree
-### 简介
 其它数据结构:[二叉树](https://github.com/heiyedeshengyin/BinaryTree) [二叉搜索树](https://github.com/heiyedeshengyin/BinarySearchTree) [链表](https://github.com/heiyedeshengyin/LinkedList) [双链表](https://github.com/heiyedeshengyin/DoublyLinkedList)
 
+### 简介
 AVL树,能一直保持平衡的二叉搜索树  
 注意AVL树中只能存储重载了>,<,==,>=,<=,!=这些运算符的对象  
 中序遍历AVL树会从小到大输出这些对象  
