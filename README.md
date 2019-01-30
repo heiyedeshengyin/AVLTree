@@ -13,7 +13,7 @@ AVL树,能一直保持平衡的二叉搜索树
 在后面编写自己的主函数后编译运行
 
 ### 数据结构
-AVL树结点
+#### AVL树结点
 ```cpp
 template <typename T>
 struct TreeNode
@@ -32,7 +32,7 @@ struct TreeNode
 	}
 };
 ```
-AVL树
+#### AVL树
 ```cpp
 template <typename T>
 class AVLTree
