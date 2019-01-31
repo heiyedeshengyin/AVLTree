@@ -87,7 +87,7 @@ ostream &operator<<(ostream &os, AVLTree\<T\> &m) //重载<<操作符,按中序�
 
 ### 一个主函数的例子
 ```cpp
-#include "AVLTree.cpp";
+#include "AVLTree.cpp"
 
 int main()
 {
