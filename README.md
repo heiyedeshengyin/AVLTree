@@ -67,7 +67,7 @@ T operator[] (int r);	//重载[]操作符
 
 #### TreeNode结点的操作函数
 TreeNode\<T\>* copyBiTree(TreeNode\<T\>* &root) //复制一个二叉树到新的内存中  
-void distoryBiTree(TreeNode\<T\>* &root)  //销毁一个二叉树  
+void destroyBiTree(TreeNode\<T\>* &root)  //销毁一个二叉树  
 void Per(TreeNode\<T\>* &root, vector\<T\> &v)  //先序遍历  
 void In(TreeNode\<T\>* &root, vector\<T\> &v) //中序遍历  
 void Post(TreeNode\<T\>* &root, vector\<T\> &v) //后序遍历  
