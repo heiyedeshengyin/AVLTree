@@ -13,7 +13,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-#pragma once
 #ifndef AVLTREE
 #define AVLTREE
 #include <iostream>
@@ -165,7 +164,7 @@ AVLTree<T>::AVLTree(vector<T> v)
 	@Return void
 */
 template <typename T>
-void distoryBiTree(TreeNode<T>* &root)
+void destroyBiTree(TreeNode<T>* &root)
 {
 	if (root)
 	{
@@ -176,9 +175,9 @@ void distoryBiTree(TreeNode<T>* &root)
 		delete root;
 		root = nullptr;
 		if (left)
-			distoryBiTree(left);
+			destroyBiTree(left);
 		if (right)
-			distoryBiTree(right);
+			destroyBiTree(right);
 	}
 }
 
@@ -189,7 +188,7 @@ void distoryBiTree(TreeNode<T>* &root)
 template <typename T>
 AVLTree<T>::~AVLTree()
 {
-	distoryBiTree(root);
+	destroyBiTree(root);
 	_size = 0;
 }
 
@@ -330,7 +329,7 @@ vector<T> AVLTree<T>::LevelOrderTraverse()
 template <typename T>
 void AVLTree<T>::clear()
 {
-	distoryBiTree(root);
+	destroyBiTree(root);
 	_size = 0;
 }
 
