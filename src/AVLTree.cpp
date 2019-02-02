@@ -134,7 +134,7 @@ AVLTree<T>::AVLTree(TreeNode<T>* _root)
 //------------------------------------------------------
 /*
 	拷贝构造函数
-	BinarySearchTree<T> &_root:被拷贝的AVL树
+	AVLTree<T> &_root:被拷贝的AVL树
 */
 template <typename T>
 AVLTree<T>::AVLTree(AVLTree<T> &_root)
